@@ -11,8 +11,9 @@
 3. 新建src/main/resources/generator.xml
     * 本地mysql驱动包的位置(绝对路径)
     * 连接数据库的信息
-    * pojo所在位置(再次生成时,会叠加,建议每次生成前都清空,或者改位置)
+    * pojo所在位置(再次生成时会叠加,故建议每次生成前都清空,或者改位置.下同)
     * dao所在位置
     * mapper所在位置
     * 数据库表
 4. 执行测试
+    * 双击maven插件命令:mybatiss-generator:generate即可执行
