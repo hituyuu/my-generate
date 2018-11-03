@@ -57,6 +57,7 @@
 		<!--<table schema="" tableName="tb_order_shipping"></table>-->
 		<!--<table schema="" tableName="tb_user"></table>-->
 		<!--<table tableName="tb_item" domainObjectName="Item"-->
+			<!--上述配置作用是:将tb_item表生成的实体类命名为Item-->
 			<!--enableCountByExample="false" enableUpdateByExample="false"-->
 			<!--enableDeleteByExample="false" enableSelectByExample="false"-->
 			<!--selectByExampleQueryId="false" />-->
